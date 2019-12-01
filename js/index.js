@@ -1,6 +1,4 @@
 const $tableID = $('#table');
-const $BTN = $('#export-btn');
-const $EXPORT = $('#export');
 var index = 0;
 
 $(document).ready(function () {
