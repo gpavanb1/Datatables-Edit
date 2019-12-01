@@ -27,3 +27,6 @@ Open `index.html`
 
 Please direct your queries to [gpavanb1](http://github.com/gpavanb1)
 for any questions.
+
+## Acknowledgments
+Add/Edit feature was inspired by [this](https://www.tutorialrepublic.com/snippets/preview.php?file=table-with-add-and-delete-row-feature&topic=bootstrap) and written for Datatables
