@@ -21,7 +21,7 @@ Open `index.html`
 
 ## Sample Output
 
-![sample](images/sample.png)
+<img src="images/sample.png" width="400">
 
 ## Whom to contact?
 
