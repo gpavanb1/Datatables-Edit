@@ -1,4 +1,3 @@
-const $tableID = $('#table');
 var index = 0;
 
 $(document).ready(function () {
@@ -60,6 +59,11 @@ $(document).ready(function () {
             $(this).parents("tr").find(".add, .edit").toggle();
             $(".add-new").removeAttr("disabled");
         }
+        // Remove input-box row and put value row
+        $(this).tooltip('hide');
+        var lastHTML = '<tr>' + $(this).parents("tr").html() + '</tr>';
+        dataTable.row($(this).parents("tr")).remove();
+        dataTable.row.add($(lastHTML)).draw();
     });
 
     // Edit row on edit button click
